@@ -1,0 +1,570 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  width: 100%;
+}
+body{
+   margin: 0px 0px 0px 0px;
+   background-image: linear-gradient(#97D8C0, #B9E69F);
+   height: 100%;
+}
+
+/* Header Navigation Bar Begin */
+.navigationbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 35px;
+  z-index: 3;
+}
+.logo {
+  width: 20%;
+  padding: ;
+  position: absolute;
+  transition: 2s;
+  z-index: 3;
+}
+.menu {
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  color: #7900FB;
+  padding: 10px ;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+.menu a:hover {
+  color: white;
+}
+    /* "ALL RIGHTS.." in navburger menu BEGIN */
+@media (min-width: 769px){
+  .menu p{
+    display: none;
+  }
+  .menu .smicons {
+    display: none;
+  }
+}
+    /* "ALL RIGHTS.." in navburger menu END */
+/* Header Navigation Bar Ends */
+
+/* NavBurger Menu Begins */
+@media (max-width: 768px) {
+  .navigationbar {
+    display: flex;
+    margin-top: -20px;
+    height: 0px;
+  }
+  .logo{
+    width: 24%;
+    top: 10px;
+    position: fixed;
+    cursor: pointer;
+  }
+  .navburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 4;
+  }
+  .line {
+    width: 18px;
+    height: 2px;
+    background-color: #7900FB;
+    margin: 2px 0px;
+    border-radius: 2px;
+  }
+  .menu {
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: #fff;
+    width: 30vw;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease;
+    transform: translateX(-100%);
+    display: none;
+    z-index: inherit;
+    text-align: justify;
+  }
+  .menu li {
+    padding: 15px;
+  }
+  .menu li:hover a{
+    color: white;
+    background-color: #7900FB;
+  }
+  .menu a {
+    color: #7900FB;
+  }
+  .menu.active {
+    display: block;
+    transition: 0.5s ease-out;
+    transform: translateX(0%);
+  }
+  .smicons {
+    font-size: 200%;
+    margin: 1% 1% 1% 1%;
+  }
+  .fa {
+    padding: 5px;
+    margin: 0% 1%;
+  }
+}
+/* NavBurger Menu Ends */
+
+/* Home SlideShow Begins */
+.homebanner {
+  margin-top: px;
+}
+.slider {
+  max-width: 100vw;
+  max-height: 80vh;
+  border-radius: ;
+  overflow: hidden;
+}
+.slides {
+  width:  ;
+  height: ;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: ;
+  transition: 2s;
+}
+/* Slide Home Banner with Text */
+.slide1 {
+  background-image: conic-gradient(rgba(163, 32, 210, 0.8), yellow, orange, rgba(163, 32, 210, 0.8), rgba(97, 230, 191, 0.5)90%);
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.halloweenbanner {
+  background-image: url(http://fishervent.com/imgrf/halloweenspecialbanner.jp2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+
+}
+/* .slide1{
+  background-image: url(img/homeslider/halloweenspecial.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+} */
+.slide2 {
+  /* 2nd slide idea */
+  background-image: url(http://fishervent.com/imgrf/homeslider/convention.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+}
+.slide3 {
+  /* 3rd slide idea */
+  background-image: url(http://fishervent.com/imgrf/homeslider/oceanbackcollage.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+}
+.slide4 {
+  /* 4th slide idea */
+  background-image: url(http://fishervent.com/imgrf/homeslider/oceanbackcollage.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+}
+.slide5 {
+  /* last slide idea */
+  background-image: conic-gradient(rgba(163, 32, 210, 0.8), yellow, orange, rgba(163, 32, 210, 0.8), rgba(97, 230, 191, 0.5)90%);
+  /* background-image: linear-gradient(to right, rgba(255, 175, 0, 0.2), rgba(150, 34, 246, 0.5), rgba(255, 235, 0, 0.8), rgba(255, 100, 0, 0.7)); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.slidecontent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: ;
+  align-items: ;
+}
+  .halloweencopy {
+  min-width: 50%;
+  max-width: 50%;
+  max-height: 70vh;
+  position: absolute;
+  top: 13%;
+  left: 15%;
+  z-index: 1;
+}
+  .halloweencopy h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 350%;
+  }
+  .halloweencopy p {
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    margin-top:-25px;
+  }
+  .halloweencopy h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+  }
+  .tanner {
+    background-image: url(http://fishervent.com/imgrf/homeslider/tannerpumpkin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 5%;
+    left: 28%;
+  }
+    /* Automatic Navigation Begins */
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-top: 75vh;
+  justify-content: center;
+}
+.navigation-auto div {
+  border: 3px solid #fff;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+  margin-right: 50px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #7900FB;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #7900FB;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: #7900FB;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: #7900FB;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background: #7900FB;
+}
+    /* Automatice Navigation Ends */
+    /* Manual Navigation Begins */
+.navigation-manual {
+  position: absolute;
+  width: 100%;
+  margin-top: 75vh;
+  display: flex;
+  justify-content: center;
+  z-index: ;
+}
+.manual-btn {
+  border: 3px solid #fff;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 50px;
+}
+.manual-btn:hover {
+  background: #7900FB;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -100%;
+}
+#radio3:checked ~ .first {
+  margin-left: -200%;
+}
+#radio4:checked ~ .first {
+  margin-left: -300%;
+}
+#radio5:checked ~ .first {
+  margin-left: -400%;
+}
+    /* Manual Naviation Ends */
+/* Home SlideShow Ends */
+
+/* Gallery Categories BEGIN */
+.image {
+   position: relative;
+   z-index: ;
+
+}
+.image img {
+  display: block;
+  overflow: hidden;
+
+}
+ .image__overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 4%;
+   background: rgba(10.5,100,250,0.54);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   transition: opacity 0.25s;
+ }
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+ .image__overlay:hover {
+   opacity: 1;
+ }
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.image__description {
+
+}
+/* Gallery Categories END */
+
+ /* Gallery Convention & Ocean & Back BEGIN */
+
+.gallery {
+  padding: 2rem 5%;
+}
+.gallery-convention {
+  padding: 2rem 5%;
+}
+.gallery .image-container {
+  columns: 25rem 4;
+  gap: 1.4rem;
+}
+.gallery-convention .image-container {
+  columns: 15rem 4;
+  gap: 1.4rem;
+}
+.gallery .image-container img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+}
+.gallery-convention .image-container img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+}
+.gallery .image-container img:hover {
+  transform: scale(1.1);
+}
+.gallery-convention .image-container img:hover {
+  transform: scale(1.1);
+}
+/* Gallery END */
+
+/* Footer BEGIN */
+.smicons {
+  font-size: 200%;
+  margin: 5% 5% 5% 5%;
+}
+.fa {
+  padding: 10px;
+  margin: 0% 2%;
+  color: #422f92;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa:hover {
+  background: #422f92;
+  color: white;
+}
+/* Footer END */
+
+
+.headerwrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 50000000;
+  padding: 0 30%;
+}
+.headerwrap h1 {
+  padding: 15%;
+}
+.headerimg {
+  width: 300px;
+}
+iframe {
+  z-index: -1;
+}
+main {
+  display: block;
+  margin-top: 50px;
+
+}
+
+
+table {
+  border-spacing: 0;
+
+}
+td {
+  padding: 0;
+}
+img{
+  border: 0;
+  border-radius: 20px;
+
+}
+.schedule {
+  margin-top: ;
+  margin-bottom: 70px;
+  padding: 0px 25px 25px 25px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  line-height: 32px;
+  background-color: white;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.wrapper {
+  height: 100%;
+  table-layout: fixed;
+  padding-top: 10px;
+  max-width: 100%;
+}
+/* Affects INDEX, VIDEOS, ABOUT  */
+.main {
+  display: block;
+  margin: auto;
+  width: auto;
+  max-width: 600px;
+  background-color: #fff;
+  font-family: sans-serif;
+  color: #4a4a4a;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  align-content: center;
+  margin-bottom: 50px;
+}
+footer nav {
+  padding: 40px 0;
+}
+footer nav ul {
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 5px 20px 5px 20px;
+}
+footer nav ul li {
+  display: ;
+  float: ;
+  list-style: none;
+  padding: 25px 16px;
+}
+footer nav ul li a {
+   font-family: comic;
+   font-size: 24px;
+   font-weight: 120px;
+   color: #422f92;
+}
+h1 {
+  color: #422f92;
+}
+h4 {
+  margin-bottom: 2px;
+  text-align: left;
+}
+p {
+  margin-top: 2px;
+  font-size: 16px;
+  text-align: left;
+  text-indent: 20px;
+}
+.two-columns {
+  text-align: center;
+}
+.two-columns .column{
+  width: 100%;
+  max-width: 290px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.two-columns .padding {
+  padding: 5px;
+}
+.two-columns .content {
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+}
+.dialog {
+  background-color: green;
+}
+footer {
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+hr {
+  width: 30%;
+}
