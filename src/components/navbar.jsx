@@ -1,4 +1,5 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 function NavBar() {
     return (
@@ -14,7 +15,10 @@ function NavBar() {
                         />
                     </Link>
                 </div>
-                <div className="navburger" id="navBurger">
+                <div className="navburger" id="navBurger" onClick={() => {
+                    document.getElementById('menu').classList.toggle('active');
+                }}
+                >
                     <div className="line" />
                     <div className="line" />
                     <div className="line" />
