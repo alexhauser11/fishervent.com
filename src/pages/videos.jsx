@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 
-{/* I need to finish the links on this page */}
 
 function Videos() {
     return (
@@ -85,13 +84,13 @@ function Videos() {
                 </section>
                 <div className="headerwrap">
                     <h1>Don the Donkey!</h1>
-                    <a href="https://fishervent.com/buddies.html">
+                    <Link to="/about">
                         <img
                             className="headerimg"
                             src="https://fishervent.com/imgrf/don.png"
                             alt=""
                         />
-                    </a>
+                    </Link>
                 </div>
                 <section
                     id="christmasspecial2021"
@@ -119,13 +118,13 @@ function Videos() {
                 </section>
                 <div className="headerwrap">
                     <h1>Meet Tanner!</h1>
-                    <a href="https://fishervent.com/buddies.html">
+                    <Link to="/about">
                         <img
                             className="headerimg"
                             src="https://fishervent.com/imgrf/tanner.png"
                             alt=""
                         />
-                    </a>
+                    </Link>
                 </div>
                 <section
                     id="easterspecial"
@@ -152,13 +151,13 @@ function Videos() {
                 </section>
                 <div className="headerwrap">
                     <h1>This is Cracker!</h1>
-                    <a href="https://fishervent.com/buddies.html">
+                    <Link to="/about">
                         <img
                             className="headerimg"
                             src="https://fishervent.com/imgrf/cracker.png"
                             alt=""
                         />
-                    </a>
+                    </Link>
                 </div>
                 <section
                     id="christmasspecial2020"

@@ -6,8 +6,9 @@ function About() {
     return (
         <>
             {/* Navigation Bar w/NavBurger BEGIN */}
-            <NavBar/>
+            <NavBar />
             {/* Navigation Bar w/NavBurger End */}
+
             <main className="">
                 <section
                     id="Roger"
@@ -36,14 +37,14 @@ function About() {
                     <p>
                         I even teach ventiloquism courses at SouthEast Community College.
                         Interested in learning? Ask me{" "}
-                        <Link href="/contact" className="link">
-                            how
+                        <Link to="/contact" className="link">
+                            how.
                         </Link>
                     </p>
                 </section>
                 <div className="headerwrap">
                     <h1>Meet Tanner!</h1>
-                    <Link href="/aboutus">
+                    <Link to="/about">
                         <img
                             className="headerimg"
                             src="https://fishervent.com/imgrf/tanner.png"
@@ -78,7 +79,7 @@ function About() {
                 </section>
                 <div className="headerwrap">
                     <h1>Hi Cracker!</h1>
-                    <Link to="/aboutus.html">
+                    <Link to="/about">
                         <img
                             className="headerimg"
                             src="https://fishervent.com/imgrf/cracker.png"
@@ -255,7 +256,7 @@ function About() {
                 </section>
             </main>
             {/* Footer */}
-            <Footer/>
+            <Footer />
             {/* Footer END */}
         </>
 
