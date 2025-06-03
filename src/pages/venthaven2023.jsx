@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 function VentHaven() {
     return (
         <>
+            <title>VentHaven 2023</title>
             {/* Navigation Bar w/NavBurger BEGIN */}
             <NavBar />
             {/* Navigation Bar w/NavBurger End */}

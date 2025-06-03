@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 function Contact() {
     return (
         <>
+            <title>Contact</title>
             {/* Navigation Bar w/NavBurger BEGIN */}
             <NavBar />
             {/* Navigation Bar w/NavBurger End */}

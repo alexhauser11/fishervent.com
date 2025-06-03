@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 function Videos() {
     return (
         <>
+            <title>Videos</title>
             {/* Navigation Bar w/NavBurger BEGIN */}
             <NavBar />
             {/* Navigation Bar w/NavBurger End */}

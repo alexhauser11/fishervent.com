@@ -1,11 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Email from './pages/email';
-import Email2 from './pages/email2';
-import EmailEducation from './pages/emaileducation';
-import EmailEvents from './pages/emailevents';
-import EmailGeneral from'./pages/emailgeneral';
 import Gallery from './pages/gallery';
 import Home from './pages/home';
 import OceanBack from './pages/oceanback';
@@ -23,11 +18,6 @@ function App(){
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
-      <Route path='/email' element={<Email/>}/>
-      <Route path='/email2' element={<Email2/>}/>
-      <Route path='/emaileducation' element={<EmailEducation/>}/>
-      <Route path='/emailevents' element={<EmailEvents/>}/>
-      <Route path='/emailgeneral' element={<EmailGeneral/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/oceanback' element={<OceanBack/>}/>
       <Route path='/performances' element={<Performances/>}/>

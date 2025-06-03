@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 function OceanBack() {
     return (
         <>
+            <title>Ocean and Back</title>
             {/* Navigation Bar w/NavBurger BEGIN */}
             <NavBar />
             {/* Navigation Bar w/NavBurger End */}

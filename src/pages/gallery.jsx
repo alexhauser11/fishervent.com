@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 function Gallery() {
     return (
         <>
+            <title>Gallery</title>
             {/* Navigation Bar w/NavBurger BEGIN */}
             <NavBar />
             {/* Navigation Bar w/NavBurger End */}
