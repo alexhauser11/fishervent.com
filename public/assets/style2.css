@@ -388,17 +388,32 @@ body{
 
 .gallery {
   padding: 2rem 5%;
+  justify-content: center;
 }
 .gallery-convention {
   padding: 2rem 5%;
 }
+.gallery .gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery .gallery-item,
+.gallery-convention .gallery-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
 .gallery .image-container {
-  columns: 25rem 4;
+  columns: 5rem 2;
   gap: 1.4rem;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
 }
 .gallery-convention .image-container {
-  columns: 15rem 4;
+  columns: 5rem 2;
   gap: 1.4rem;
+  width: 50%;
 }
 .gallery .image-container img {
   width: 100%;
@@ -416,6 +431,7 @@ body{
 .gallery-convention .image-container img:hover {
   transform: scale(1.1);
 }
+
 /* Gallery END */
 
 /* Footer BEGIN */

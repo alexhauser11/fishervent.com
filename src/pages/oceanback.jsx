@@ -14,19 +14,19 @@ function OceanBack() {
                 </h1>
                 <div className="gallery-convention">
                     <div className="image-container" style={{}}>
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_3980.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4028.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4071.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4091.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4187.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4213.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4380.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4519.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4540.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4613.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_4655.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_5003.jp2" alt="" />
-                        <img src="http://fishervent.com/imgrf/oceanback/IMG_5016.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_3980.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4028.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4071.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4091.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4187.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4213.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4380.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4519.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4540.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4613.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_4655.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_5003.jp2" alt="" />
+                        <img src="/assets/img/oceanback/IMG_5016.jp2" alt="" />
                     </div>
                 </div>
 

@@ -1,5 +1,6 @@
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
+import Form from '../components/form';
 
 function Contact() {
     return (
@@ -14,7 +15,7 @@ function Contact() {
                     className="main"
                     style={{
                         marginTop: "",
-                        marginBottom: "-25px",
+                        marginBottom: "20px",
                         padding: "100px 25px",
                         textAlign: "center"
                     }}
@@ -42,6 +43,10 @@ function Contact() {
                     </a>
                 </section>
             </main>
+
+            <Form style={{padding : 60}} />
+
+
             {/* Footer */}
             <Footer/>
             {/* Footer END */}

@@ -48,7 +48,7 @@ function About() {
                     <Link to="/about">
                         <img
                             className="headerimg"
-                            src="https://fishervent.com/imgrf/tanner.png"
+                            src="/assets/img/tanner.png"
                             alt=""
                         />
                     </Link>
@@ -83,7 +83,7 @@ function About() {
                     <Link to="/about">
                         <img
                             className="headerimg"
-                            src="https://fishervent.com/imgrf/cracker.png"
+                            src="/assets/img/cracker.png"
                             alt=""
                         />
                     </Link>
@@ -107,7 +107,7 @@ function About() {
                                                             <tr>
                                                                 <td>
                                                                     <img
-                                                                        src="https://fishervent.com/imgrf/crackersbeginning.jp2"
+                                                                        src="/assets/img/crackersbeginning.jp2"
                                                                         alt=""
                                                                         width="100%"
                                                                     />
@@ -162,7 +162,7 @@ function About() {
                                                             <tr>
                                                                 <td>
                                                                     <img
-                                                                        src="https://fishervent.com/imgrf/boulder.jp2"
+                                                                        src="/assets/img/boulder.jp2"
                                                                         alt=""
                                                                         width="100%"
                                                                     />
@@ -216,7 +216,7 @@ function About() {
                                                             <tr>
                                                                 <td>
                                                                     <img
-                                                                        src="https://fishervent.com/imgrf/buddiesinmirror.jpg"
+                                                                        src="/assets/img/buddiesinmirror.jpg"
                                                                         alt=""
                                                                         width="100%"
                                                                     />

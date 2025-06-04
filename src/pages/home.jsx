@@ -61,9 +61,9 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="http://fishervent.com/imgrf/trainedbythebest.png">
+                              <a href="/assets/img/trainedbythebest.png">
                                 <img
-                                  src="http://fishervent.com/imgrf/rogerandtanners.jpg"
+                                  src="/assets/img/rogerandtanners.jpg"
                                   alt="Roger Fisher & Tanners"
                                   title="Roger in dentist gown with Tanner dog and Tanner puppet"
                                   width="100%"
@@ -79,7 +79,7 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="http://fishervent.com/imgrf/tailoredtofunction.png">
+                              <a href="/assets/img/tailoredtofunction.png">
                                 <iframe
                                   width="100%"
                                   height="125%"
@@ -172,9 +172,9 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="http://fishervent.com/imgrf/performances.png">
+                              <a href="/assets/img/performances.png">
                                 <img
-                                  src="http://fishervent.com/imgrf/theamericanadventure.png"
+                                  src="/assets/img/theamericanadventure.png"
                                   alt="Roger Fisher & Buddies"
                                   title="Hospital Visit & Rock&Joe's Flyer"
                                   width="100%"
@@ -193,7 +193,7 @@ function Home() {
                               style={{ padding: 10 }}
                             >
                               <video
-                                src="http://fishervent.com/videos/liveshow.mp4" poster="posterimage.jpg" height="100%" width="100%" title="" frameborder="0" 
+                                src="/assets/videos/liveshow.mp4" poster="posterimage.jpg" height="100%" width="100%" title="" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 referrerpolicy="strict-origin-when-cross-origin" controls></video>
                               <p style={{ width: "100%", textAlign: "center" }}>
@@ -238,9 +238,9 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="http://fishervent.com/imgrf/aboutmyself.png">
+                              <a href="/assets/img/aboutmyself.png">
                                 <img
-                                  src="http://fishervent.com/imgrf/holidaysintheusa.png"
+                                  src="/assets/img/holidaysintheusa.png"
                                   alt="Roger Fisher & Buddies"
                                   title="@ Dentist Chair & Tennis Wins"
                                   width="100%"
@@ -319,9 +319,9 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="http://fishervent.com/imgrf/aboutmyself.png">
+                              <a href="/assets/img/aboutmyself.png">
                                 <img
-                                  src="http://fishervent.com/imgrf/aboutmyself.png"
+                                  src="/assets/img/aboutmyself.png"
                                   alt="Roger Fisher & Buddies"
                                   title="@ Dentist Chair & Tennis Wins"
                                   width="100%"
@@ -376,9 +376,9 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="http://fishervent.com/imgrf/aboutmyself.png">
+                              <a href="/assets/img/hospitalvisit.jpeg">
                                 <img
-                                  src="http://fishervent.com/imgrf/hospitalvisit.jpeg"
+                                  src="/assets/img/hospitalvisit.jpeg"
                                   alt="Roger Fisher & Buddies at the childrensh"
                                   title="@ Dentist Chair & Tennis Wins"
                                   width="100%"
@@ -430,7 +430,7 @@ function Home() {
                           </p>
                         </td>
                         <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
-                          <video src="http://fishervent.com/videos/ventconvent.mp4" poster="posterimage.jpg" height="100%" width="100%" title="" frameborder="0" 
+                          <video src="/assets/videos/ventconvent.mp4" poster="posterimage.jpg" height="100%" width="100%" title="" frameborder="0" 
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                           referrerpolicy="strict-origin-when-cross-origin" controls></video>
                         </td>

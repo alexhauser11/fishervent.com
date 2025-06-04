@@ -10,7 +10,7 @@ function NavBar() {
                         <img
                             className="logo"
                             id="logo"
-                            src="https://fishervent.com/imgrf/rogerandhalloweenbuddies.png"
+                            src="/assets/img/roger&buddies.png"
                             alt=""
                         />
                     </Link>
