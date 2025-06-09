@@ -12,7 +12,65 @@ function Videos() {
             {/* Navigation Bar w/NavBurger End */}
             <main className="">
                 <section
-                    id="easter2023"
+                    id="liveShowMP4"
+                    width=""
+                    className="main"
+                    style={{ marginBottom: 50 }}
+                >
+                    <video src="http://fishervent.com/videos/liveshow.mp4" poster="/assets/img/buddiesinmirror.jpg" width="100%" height="50%" 
+                    title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" controls />
+
+                    <div className="" style={{ padding: "25px 25px" }}>
+                        <h2>Live Show</h2>
+                        <p>
+                            Filler Text
+                        </p>
+                        <p>Filler Text</p>
+                    </div>
+                </section>
+                <section
+                    id="ventConventMP4"
+                    width=""
+                    className="main"
+                    style={{ marginBottom: 50 }}
+                >
+                    <video src="/assets/videos/ventconvent.mov" poster="/assets/img/buddiesinmirror.jpg" height="100%" width="100%" title="" frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                          referrerpolicy="strict-origin-when-cross-origin" controls></video>
+                    <div className="" style={{ padding: "25px 25px" }}>
+                        <h2>VentHaven Convention</h2>
+                        <p>
+                            Filler Text
+                        </p>
+                        <p>Filler Text</p>
+                    </div>
+                </section>
+                <section
+                    id="grownUpChristmasList"
+                    width=""
+                    className="main"
+                    style={{ marginBottom: 50 }}
+                >
+                    <iframe 
+                    width="100%"
+                    height={315}
+                    src="https://www.youtube.com/embed/86wwVmCb3KQ?si=cdX9DLvxiaygTdB7"
+                    title="YouTube video player"
+                    frameBorder={0}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen=""
+                    />
+                    <div className="" style={{ padding: "25px 25px" }}>
+                        <h2>Tanner's Grown Up Christmas List</h2>
+                        <p>
+                            Filler Text
+                        </p>
+                        <p>Merry Christmas!</p>
+                    </div>
+                </section>
+                <section
+                    id="familyHolloweenWeek"
                     width=""
                     className="main"
                     style={{ marginBottom: 50 }}

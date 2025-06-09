@@ -337,6 +337,24 @@ body{
     /* Manual Naviation Ends */
 /* Home SlideShow Ends */
 
+/* Email on home page Begins */
+@media screen and (max-width: 650px) {
+  .email-container {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    font-size: 14px;
+  }
+
+  .stack-column td p{
+    font-size: 12px;
+  }
+
+  
+}
+
+/* Email on home page Ends
+
 /* Gallery Categories BEGIN */
 .image {
    position: relative;
@@ -386,10 +404,18 @@ body{
 
  /* Gallery Convention & Ocean & Back BEGIN */
 
+ @media (max-width: 700px) {
+  .gallery .image-container {
+    columns: 1 !important;
+    width: 100% !important;
+  }
+}
+
 .gallery {
   padding: 2rem 5%;
   justify-content: center;
 }
+
 .gallery-convention {
   padding: 2rem 5%;
 }
@@ -453,6 +479,19 @@ body{
   color: white;
 }
 /* Footer END */
+
+
+@media (max-width: 700px){
+
+  .headerwrap {
+    padding: 0 0% !important;
+  }
+
+  .headerimg{
+    width: 100% !important;
+  }
+
+}
 
 
 .headerwrap {
