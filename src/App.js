@@ -8,12 +8,14 @@ import Performances from './pages/performances';
 import Store from './pages/store';
 import VentHaven2023 from './pages/venthaven2023';
 import Videos from './pages/videos';
+import ScrollToHash from './components/scrolltohash';
 
 
 
 function App(){
   return(
     <BrowserRouter>
+    <ScrollToHash/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>

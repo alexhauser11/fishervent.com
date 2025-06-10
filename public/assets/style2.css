@@ -22,7 +22,6 @@ body {
 }
 .logo {
   width: 20%;
-  padding: ;
   position: absolute;
   transition: 2s;
   z-index: 3;
@@ -131,25 +130,18 @@ body {
 /* NavBurger Menu Ends */
 
 /* Home SlideShow Begins */
-.homebanner {
-  margin-top: px;
-}
 .slider {
   max-width: 100vw;
   max-height: 80vh;
-  border-radius: ;
   overflow: hidden;
 }
 .slides {
-  width:  ;
-  height: ;
   display: flex;
 }
 .slides input {
   display: none;
 }
 .slide {
-  width: ;
   transition: 2s;
 }
 /* Slide Home Banner with Text */
@@ -223,8 +215,6 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  justify-content: ;
-  align-items: ;
 }
   .halloweencopy {
   min-width: 50%;
@@ -304,7 +294,6 @@ body {
   margin-top: 75vh;
   display: flex;
   justify-content: center;
-  z-index: ;
 }
 .manual-btn {
   border: 3px solid #fff;
@@ -358,8 +347,6 @@ body {
 /* Gallery Categories BEGIN */
 .image {
    position: relative;
-   z-index: ;
-
 }
 .image img {
   display: block;
@@ -396,9 +383,6 @@ body {
 .image__title {
   font-size: 2em;
   font-weight: bold;
-}
-.image__description {
-
 }
 /* Gallery Categories END */
 
@@ -531,7 +515,6 @@ img {
 
 }
 .schedule {
-  margin-top: ;
   margin-bottom: 70px;
   padding: 0px 25px 25px 25px;
   width: 80%;
@@ -695,8 +678,6 @@ footer nav ul {
   padding: 5px 20px 5px 20px;
 }
 footer nav ul li {
-  display: ;
-  float: ;
   list-style: none;
   padding: 25px 16px;
 }
