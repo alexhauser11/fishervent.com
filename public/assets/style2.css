@@ -1,11 +1,11 @@
-*{
+* {
   text-decoration: none;
   list-style: none;
 }
 html {
   width: 100%;
 }
-body{
+body {
    margin: 0px 0px 0px 0px;
    background-image: linear-gradient(#97D8C0, #B9E69F);
    height: 100%;
@@ -41,8 +41,8 @@ body{
   color: white;
 }
     /* "ALL RIGHTS.." in navburger menu BEGIN */
-@media (min-width: 769px){
-  .menu p{
+@media (min-width: 769px) {
+  .menu p {
     display: none;
   }
   .menu .smicons {
@@ -59,7 +59,7 @@ body{
     margin-top: -20px;
     height: 0px;
   }
-  .logo{
+  .logo {
     width: 24%;
     top: 10px;
     position: fixed;
@@ -107,7 +107,7 @@ body{
   .menu li {
     padding: 15px;
   }
-  .menu li:hover a{
+  .menu li:hover a {
     color: white;
     background-color: #7900FB;
   }
@@ -278,7 +278,7 @@ body{
   cursor: pointer;
   transition: 1s;
 }
-.navigation-auto div:not(:last-child){
+.navigation-auto div:not(:last-child) {
   margin-right: 50px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1 {
@@ -313,7 +313,7 @@ body{
   cursor: pointer;
   transition: 1s;
 }
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
   margin-right: 50px;
 }
 .manual-btn:hover {
@@ -481,13 +481,13 @@ body{
 /* Footer END */
 
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
 
   .headerwrap {
     padding: 0 0% !important;
   }
 
-  .headerimg{
+  .headerimg {
     width: 100% !important;
   }
 
@@ -525,7 +525,7 @@ table {
 td {
   padding: 0;
 }
-img{
+img {
   border: 0;
   border-radius: 20px;
 
@@ -722,7 +722,7 @@ p {
 .two-columns {
   text-align: center;
 }
-.two-columns .column{
+.two-columns .column {
   width: 100%;
   max-width: 290px;
   display: inline-block;
@@ -742,7 +742,7 @@ p {
 footer {
   text-align: center;
 }
-footer p{
+footer p {
   text-align: center;
 }
 hr {
