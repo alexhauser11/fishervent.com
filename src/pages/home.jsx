@@ -61,11 +61,11 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="/assets/img/trainedbythebest.png">
+                              <a href="/assets/img/rogerandtanners.jpg">
                                 <img
                                   src="/assets/img/rogerandtanners.jpg"
-                                  alt="Roger Fisher & Tanners"
-                                  title="Roger in dentist gown with Tanner dog and Tanner puppet"
+                                  alt="Roger and Tanners"
+                                  title="Roger and Tanners"
                                   width="100%"
                                 />
                               </a>
@@ -172,11 +172,11 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="/assets/img/performances.png">
+                              <a href="/assets/img/theamericanadventure.png">
                                 <img
                                   src="/assets/img/theamericanadventure.png"
-                                  alt="Roger Fisher & Buddies"
-                                  title="Hospital Visit & Rock&Joe's Flyer"
+                                  alt="The American Adventure"
+                                  title="The American Adventure"
                                   width="100%"
                                 />
                               </a>
@@ -238,11 +238,11 @@ function Home() {
                               className="stack-column"
                               style={{ padding: 10 }}
                             >
-                              <a href="/assets/img/aboutmyself.png">
+                              <a href="/assets/img/holidaysintheusa.png">
                                 <img
                                   src="/assets/img/holidaysintheusa.png"
-                                  alt="Roger Fisher & Buddies"
-                                  title="@ Dentist Chair & Tennis Wins"
+                                  alt="Holidays in the USA"
+                                  title="Holidays in the USA"
                                   width="100%"
                                 />
                               </a>
@@ -322,8 +322,8 @@ function Home() {
                               <a href="/assets/img/aboutmyself.png">
                                 <img
                                   src="/assets/img/aboutmyself.png"
-                                  alt="Roger Fisher & Buddies"
-                                  title="@ Dentist Chair & Tennis Wins"
+                                  alt="About Myself Image"
+                                  title="About Myself"
                                   width="100%"
                                 />
                               </a>
@@ -379,8 +379,8 @@ function Home() {
                               <a href="/assets/img/hospitalvisit.jpeg">
                                 <img
                                   src="/assets/img/hospitalvisit.jpeg"
-                                  alt="Roger Fisher & Buddies at the childrensh"
-                                  title="@ Dentist Chair & Tennis Wins"
+                                  alt="Hospital Visit"
+                                  title="Hospital Visit"
                                   width="100%"
                                 />
                               </a>
@@ -486,7 +486,7 @@ function Home() {
 
 
 
-      {/* Form Start */}
+      {/* Form */}
       <Form />
 
       {/* Footer */}

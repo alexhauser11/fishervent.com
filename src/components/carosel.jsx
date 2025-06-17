@@ -1,38 +1,65 @@
-import { Link } from 'react-router-dom';
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 
 function Carosel() {
+    const touchStartX = useRef(null);
+    const touchEndX = useRef(null);
+    const slideCount = 5;
+
+    const getCurrentIndex = () => {
+        for (let i = 1; i <= slideCount; i++) {
+            if (document.getElementById(`radio${i}`).checked) {
+                return i - 1;
+            }
+        }
+        return 0;
+    };
+
+    const setChecked = (current) => {
+        const radio = document.getElementById(`radio${current + 1}`);
+        if (radio) {
+            radio.checked = true;
+        }
+    };
+
+    // Gets the x position of the start of the swipe.
+    const handleTouchStart = (e) => {
+        touchStartX.current = e.targetTouches[0].clientX;
+    };
+
+    const handleTouchEnd = (e) => {
+        touchEndX.current = e.changedTouches[0].clientX;
+        const diff = touchStartX.current - touchEndX.current;
+
+        // Checks if the swipe was a greater than 40 pixels long
+        if (diff > 40 || diff < -40) {
+            let current = getCurrentIndex();
+
+            // goes to the next slide if the x position of the start is greater than the x position of the
+            // end of swipe meaning the swipe was to the left and vice versa.
+            if (diff > 0) {
+                setChecked((current + 1) % slideCount);
+            } else {
+                setChecked((current - 1 + slideCount) % slideCount);
+            }
+        }
+    };
+
     return (
         <>
             {/* Image Slider Begins */}
-            <section className="homebanner">
+            <section
+                className="homebanner"
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+            >
                 <div className="slider">
                     <div className="slides">
-                        {/* Radio Buttons Begin */}
-                        {/* Radio Buttons are Invisible */}
-                        <input type="radio" name="radio-btn" id="radio1" defaultValue="" />
-                        <input type="radio" name="radio-btn" id="radio2" defaultValue="" />
-                        <input type="radio" name="radio-btn" id="radio3" defaultValue="" />
-                        <input type="radio" name="radio-btn" id="radio4" defaultValue="" />
-                        <input type="radio" name="radio-btn" id="radio5" defaultValue="" />
-                        {/* Radio Buttons End */}
-                        {/* slide images start */}
-                        {/* <div class="slide first">
-      <div class="slide1">
-        <table class="main" width="100%" style="margin: -25px 0 25px 0;">
-          <tr>
-            <td style="text-indent: 20px; line-height: px; text-align: left; font-size: 20px; font-weight: bold; font-style: italic; padding: 20px 100px 20px 100px; font-family: sans-serif;">
-              <p style="text-indent: 0px;">
-                Hello,
-              </p>
-              <p>
-                I'm Roger Fisher from Lincoln Nebraska. Bringing to our Midlands and across the globe a New Twist in Entertainment!
-              </p>
-              <p>Learn about everything me and buddies do!!</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div> */}
+                        <input type="radio" name="radio-btn" id="radio1" defaultChecked/>
+                        <input type="radio" name="radio-btn" id="radio2" />
+                        <input type="radio" name="radio-btn" id="radio3" />
+                        <input type="radio" name="radio-btn" id="radio4" />
+                        <input type="radio" name="radio-btn" id="radio5" />
                         <div className="slide first">
                             <div className="slide1">
                                 <a href="#halloweenspecialhome">
