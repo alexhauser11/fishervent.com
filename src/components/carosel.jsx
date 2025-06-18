@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Carosel() {
-    const touchStartX = useRef(null);
-    const touchEndX = useRef(null);
+    const touchStart = useRef(null);
+    const touchEnd = useRef(null);
     const slideCount = 5;
+    const interval = useRef(null);
 
     const getCurrentIndex = () => {
         for (let i = 1; i <= slideCount; i++) {
@@ -24,26 +25,44 @@ function Carosel() {
 
     // Gets the x position of the start of the swipe.
     const handleTouchStart = (e) => {
-        touchStartX.current = e.targetTouches[0].clientX;
+        touchStart.current = e.targetTouches[0].clientX;
     };
 
     const handleTouchEnd = (e) => {
-        touchEndX.current = e.changedTouches[0].clientX;
-        const diff = touchStartX.current - touchEndX.current;
+        touchEnd.current = e.changedTouches[0].clientX;
+        const diff = touchStart.current - touchEnd.current;
 
         // Checks if the swipe was a greater than 40 pixels long
         if (diff > 40 || diff < -40) {
-            let current = getCurrentIndex();
+            let currentIndex = getCurrentIndex();
 
             // goes to the next slide if the x position of the start is greater than the x position of the
             // end of swipe meaning the swipe was to the left and vice versa.
             if (diff > 0) {
-                setChecked((current + 1) % slideCount);
+                setChecked((currentIndex + 1) % slideCount);
             } else {
-                setChecked((current - 1 + slideCount) % slideCount);
+                setChecked((currentIndex - 1 + slideCount) % slideCount);
             }
+
+            resetInterval();
         }
     };
+
+    const resetInterval = () => {
+        clearInterval(interval.current);
+
+        interval.current = setInterval(() => {
+            let currentIndex = getCurrentIndex();
+            setChecked((currentIndex + 1) % slideCount);
+        }, 5000);
+    };
+
+    useEffect(() => {
+        resetInterval();
+        return () => {
+            clearInterval(interval.current);
+        };
+    });
 
     return (
         <>
@@ -55,11 +74,11 @@ function Carosel() {
             >
                 <div className="slider">
                     <div className="slides">
-                        <input type="radio" name="radio-btn" id="radio1" defaultChecked/>
-                        <input type="radio" name="radio-btn" id="radio2" />
-                        <input type="radio" name="radio-btn" id="radio3" />
-                        <input type="radio" name="radio-btn" id="radio4" />
-                        <input type="radio" name="radio-btn" id="radio5" />
+                        <input type="radio" name="radio-btn" id="radio1" onClick={resetInterval} defaultChecked />
+                        <input type="radio" name="radio-btn" id="radio2" onClick={resetInterval} />
+                        <input type="radio" name="radio-btn" id="radio3" onClick={resetInterval} />
+                        <input type="radio" name="radio-btn" id="radio4" onClick={resetInterval} />
+                        <input type="radio" name="radio-btn" id="radio5" onClick={resetInterval} />
                         <div className="slide first">
                             <div className="slide1">
                                 <a href="#halloweenspecialhome">
