@@ -9,6 +9,7 @@ import Store from './pages/store';
 import VentHaven2023 from './pages/venthaven2023';
 import Videos from './pages/videos';
 import ScrollToHash from './components/scrolltohash';
+import Email from './pages/email';
 
 
 
@@ -26,6 +27,7 @@ function App(){
       <Route path='/store' element={<Store/>}/>
       <Route path='/venthaven2023' element={<VentHaven2023/>}/>
       <Route path='/videos' element={<Videos/>}/>
+      <Route path='/email' element={<Email/>}/>
     </Routes>
     </BrowserRouter>
   )
