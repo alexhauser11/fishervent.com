@@ -9,9 +9,6 @@ function Home() {
       {/* Navigation Bar w/NavBurger */}
       <NavBar />
 
-      {/* Carosel */}
-      <Carosel />
-
 
       <table border={0} cellPadding={0} cellSpacing={0} width="100%">
         <tbody>
@@ -430,7 +427,7 @@ function Home() {
                           </p>
                         </td>
                         <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
-                          <video src="/assets/videos/ventconvent.mov" poster="/assets/img/buddiesinmirror.jpg" height="100%" width="100%" title="" frameborder="0" 
+                          <video src="/assets/videos/ventconvent.mov" type="video/quicktime" poster="/assets/img/buddiesinmirror.jpg" height="100%" width="100%" title="" frameborder="0" 
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                           referrerpolicy="strict-origin-when-cross-origin" controls></video>
                         </td>
@@ -482,15 +479,15 @@ function Home() {
         </tbody>
       </table>
 
-
-
-
-
       {/* Form */}
       <Form />
 
+     {/* Carosel */}
+      <Carosel />
+
       {/* Footer */}
       <Footer />
+
     </>
   );
 }
