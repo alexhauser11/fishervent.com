@@ -17,7 +17,7 @@ function Videos() {
                     className="main"
                     style={{ marginBottom: 50 }}
                 >
-                    <video src="http://fishervent.com/videos/liveshow.mp4" poster="/assets/img/buddiesinmirror.jpg" width="100%" height="50%" 
+                    <video src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" width="100%" height="50%" 
                     title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" controls />
 
@@ -35,7 +35,7 @@ function Videos() {
                     className="main"
                     style={{ marginBottom: 50 }}
                 >
-                    <video src="/assets/videos/ventconvent.mov" poster="/assets/img/buddiesinmirror.jpg" height="100%" width="100%" title="" frameborder="0" 
+                    <video src="/assets/videos/ventconvent.mov" poster="/assets/img/convention/ventConventImg.png" height="100%" width="100%" title="" frameborder="0" 
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                           referrerpolicy="strict-origin-when-cross-origin" controls></video>
                     <div className="" style={{ padding: "25px 25px" }}>

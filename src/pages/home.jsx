@@ -190,7 +190,7 @@ function Home() {
                               style={{ padding: 10 }}
                             >
                               <video
-                                src="/assets/videos/liveshow.mp4" poster="/assets/img/buddiesinmirror.jpg" height="100%" width="100%" title="" frameborder="0" 
+                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" height="100%" width="100%" title="" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                                 referrerpolicy="strict-origin-when-cross-origin" controls></video>
                               <p style={{ width: "100%", textAlign: "center" }}>
@@ -427,7 +427,7 @@ function Home() {
                           </p>
                         </td>
                         <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
-                          <video src="/assets/videos/ventconvent.mov" type="video/quicktime" poster="/assets/img/buddiesinmirror.jpg" height="100%" width="100%" title="" frameborder="0" 
+                          <video src="/assets/videos/ventconvent.mov" type="video/quicktime" poster="/assets/img/convention/ventConventImg.png" height="100%" width="100%" title="" frameborder="0" 
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                           referrerpolicy="strict-origin-when-cross-origin" controls></video>
                         </td>

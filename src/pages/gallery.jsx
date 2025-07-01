@@ -35,7 +35,7 @@ function Gallery() {
                                 <h1>Vent Haven Convention</h1>
                                 <div className="image">
                                     <img
-                                        src="/assets/img/homeslider/oceanbackcollage.png"
+                                        src="/assets/img/homeslider/convention.png"
                                         alt=""
                                     />
                                     <div className="image__overlay">
