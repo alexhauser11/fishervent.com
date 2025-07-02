@@ -523,7 +523,8 @@ function Home() {
       </table>
 
       {/* Form */}
-      <Form />
+      
+      <Form id="form"/>
 
       {/* Carosel */}
       <Carosel />

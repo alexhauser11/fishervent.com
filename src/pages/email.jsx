@@ -566,7 +566,13 @@ function Email() {
                                                         <textarea id="message" name="message" required="" defaultValue={""} />
                                                     </td>
                                                 </tr>
-                                                <button type="submit">Submit</button>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <a href="https://www.fishervent.com/contact#form">
+                                                            <button type="submit">Fill out form on www.fishervent.com</button>
+                                                        </a>
+                                                    </td>
+                                                </tr>
 
                                             </tr>
                                         </table>

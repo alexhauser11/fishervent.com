@@ -48,7 +48,7 @@ function Contact() {
 
 
             {/* Footer */}
-            <Footer/>
+            <Footer id="form" />
             {/* Footer END */}
         </>
     );
