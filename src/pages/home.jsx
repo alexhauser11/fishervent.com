@@ -190,11 +190,11 @@ function Home() {
                               style={{ padding: 10 }}
                             >
                               <video
-                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" height="100%" width="100%" title="" frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" height="100%" width="100%" title="" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" controls></video>
                               <p style={{ width: "100%", textAlign: "center" }}>
-                                Go to fishervent.com to watch one our adventures
+                                Click on above arrow to watch the video.
                               </p>
                             </td>
                           </tr>
@@ -269,7 +269,7 @@ function Home() {
                                 allowFullScreen=""
                               />
                               <p style={{ textAlign: "center", margin: "1rem" }}>
-                                Tap arrow to play video
+                                Click the arrow to play video
                               </p>
                               <p>
                                 One of the shows of the YouTube series Holidays in the
@@ -427,9 +427,12 @@ function Home() {
                           </p>
                         </td>
                         <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
-                          <video src="/assets/videos/ventconvent.mp4" poster="/assets/img/convention/ventConventImg.png" height="100%" width="100%" title="" frameborder="0" 
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                          referrerpolicy="strict-origin-when-cross-origin" controls></video>
+                          <video src="/assets/videos/ventconvent.mp4" poster="/assets/img/convention/ventConventImg.png" height="100%" width="100%" title="" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" controls></video>
+                          <p style={{ width: "100%", textAlign: "center" }}>
+                            Click on above arrow to watch the video.
+                          </p>
                         </td>
                       </tr>
                     </table>
@@ -476,13 +479,53 @@ function Home() {
               </table>
             </td>
           </tr>
+
+          {/* Page 7 */}
+          <tr>
+            <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
+              <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: 'transparent', border: '0px solid #dddddd' }}>
+                <tr>
+                  <td align="center" style={{ padding: '0 20px 20px' }}>
+
+                    <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
+                      {/* National Ventriloquist Convention */}
+                      <tr className="stack-column">
+                        <td width="50%" align="center" className="stack-column" style={{ padding: '10px' }}>
+                          <img
+                            src="https://www.fishervent.com/assets/img/theamericanadventure.png"
+                            alt="Holidays in the USA"
+                            title="Holidays in the USA"
+                            width="50%"
+                          />
+                          <img src="/assets/img/adventureScript.png" alt="Adventures Script" title="Adventures Script" width="100%" height="125%" />
+                        </td>
+                      </tr>
+                      <tr className="stack-column">
+                        <td width="50%" align="center" className="stack-column" style={{ padding: '10px' }}>
+                          <img
+                            src="https://www.fishervent.com/assets/img/holidaysintheusa.png"
+                            alt="Holidays in the USA"
+                            title="Holidays in the USA"
+                            width="50%"
+                          />
+                          <img src="/assets/img/holidaysScript.png" alt="Holidays Script" title="Holidays Script" width="100%" height="125%" />
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+
         </tbody>
       </table>
 
       {/* Form */}
       <Form />
 
-     {/* Carosel */}
+      {/* Carosel */}
       <Carosel />
 
       {/* Footer */}

@@ -5,7 +5,7 @@ function Email() {
         <>
             <table border={0} cellPadding={0} cellSpacing={0} width="100%">
 
-                
+
 
                 <tbody>
                     {/* BODY CONTENT */}
@@ -54,9 +54,9 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="/assets/img/rogerandtanners.jpg">
+                                                            <a href="https://www.fishervent.com/assets/img/rogerandtanners.jpg">
                                                                 <img
-                                                                    src="/assets/img/rogerandtanners.jpg"
+                                                                    src="https://www.fishervent.com/assets/img/rogerandtanners.jpg"
                                                                     alt="Roger and Tanners"
                                                                     title="Roger and Tanners"
                                                                     width="100%"
@@ -72,17 +72,8 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="/assets/img/tailoredtofunction.png">
-                                                                <iframe
-                                                                    width="100%"
-                                                                    height="125%"
-                                                                    src="https://www.youtube.com/embed/86wwVmCb3KQ?si=EfOOhk1iEzBu6iax"
-                                                                    title="YouTube video player"
-                                                                    frameBorder={0}
-                                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                                    referrerPolicy="strict-origin-when-cross-origin"
-                                                                    allowFullScreen=""
-                                                                />
+                                                            <a href="https://www.fishervent.com/videos#grownUpChristmasList">
+                                                                <img src="https://www.fishervent.com/assets/img/tannersGrownUpChristmas.png" alt="Roger Fisher & Tanners" title="Roger in dentist gown with Tanner dog and Tanner puppet" width="100%" height="125%" />
                                                             </a>
                                                         </td>
                                                         <td
@@ -93,10 +84,10 @@ function Email() {
                                                         >
                                                             <h4>
                                                                 To see my latest{" "}
-                                                                <a href="#">"My Grown Up Christmas List"</a> a live
+                                                                <a href="https://www.fishervent.com/videos#grownUpChristmasList">"My Grown Up Christmas List"</a> a live
                                                                 song at the Crescent Moon Coffee Shop in Lincoln, NE.
                                                             </h4>
-                                                            <h3>Tap on the arrow to watch video.</h3>
+                                                            <h3>Click the arrow on the left to watch video on fishervent.com.</h3>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -165,9 +156,9 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="/assets/img/theamericanadventure.png">
+                                                            <a href="https://www.fishervent.com/assets/img/theamericanadventure.png">
                                                                 <img
-                                                                    src="/assets/img/theamericanadventure.png"
+                                                                    src="https://www.fishervent.com/assets/img/theamericanadventure.png"
                                                                     alt="The American Adventure"
                                                                     title="The American Adventure"
                                                                     width="100%"
@@ -185,12 +176,11 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <video
-                                                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" height="100%" width="100%" title="" frameborder="0"
-                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                                referrerpolicy="strict-origin-when-cross-origin" controls></video>
+                                                            <a href="https://www.fishervent.com/videos#liveShowMP4">
+                                                                <img src="https://www.fishervent.com/assets/img/convention/liveShowImg.png" alt="Live Show" title="Live Show" width="100%" height="125%" />
+                                                            </a>
                                                             <p style={{ width: "100%", textAlign: "center" }}>
-                                                                Go to fishervent.com to watch one our adventures
+                                                                Click on above image to watch video on fishervent.com
                                                             </p>
                                                         </td>
                                                     </tr>
@@ -231,9 +221,9 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="/assets/img/holidaysintheusa.png">
+                                                            <a href="https://www.fishervent.com/assets/img/holidaysintheusa.png">
                                                                 <img
-                                                                    src="/assets/img/holidaysintheusa.png"
+                                                                    src="https://www.fishervent.com/assets/img/holidaysintheusa.png"
                                                                     alt="Holidays in the USA"
                                                                     title="Holidays in the USA"
                                                                     width="100%"
@@ -254,18 +244,11 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <iframe
-                                                                width="100%"
-                                                                height="100%"
-                                                                src="https://www.youtube.com/embed/2LX-XdGbJ-w?si=DsjXwHLRUMkLd0is"
-                                                                title="YouTube video player"
-                                                                frameBorder={0}
-                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                                referrerPolicy="strict-origin-when-cross-origin"
-                                                                allowFullScreen=""
-                                                            />
+                                                            <a href="https://www.fishervent.com/videos#easter2023">
+                                                                <img src="https://www.fishervent.com/assets/img/familyEasterWeek.png" alt="Family Easter Week" title="Family Easter Week Live" width="100%" height="125%" />
+                                                            </a>
                                                             <p style={{ textAlign: "center", margin: "1rem" }}>
-                                                                Tap arrow to play video
+                                                                Click the above arrow to watch the video on fishervent.com.
                                                             </p>
                                                             <p>
                                                                 One of the shows of the YouTube series Holidays in the
@@ -312,9 +295,9 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="/assets/img/aboutmyself.png">
+                                                            <a href="https://www.fishervent.com/assets/img/aboutmyself.png">
                                                                 <img
-                                                                    src="/assets/img/aboutmyself.png"
+                                                                    src="https://www.fishervent.com/assets/img/aboutmyself.png"
                                                                     alt="About Myself Image"
                                                                     title="About Myself"
                                                                     width="100%"
@@ -369,9 +352,9 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="/assets/img/hospitalvisit.jpeg">
+                                                            <a href="https://www.fishervent.com/assets/img/hospitalvisit.jpeg">
                                                                 <img
-                                                                    src="/assets/img/hospitalvisit.jpeg"
+                                                                    src="https://www.fishervent.com/assets/img/hospitalvisit.jpeg"
                                                                     alt="Hospital Visit"
                                                                     title="Hospital Visit"
                                                                     width="100%"
@@ -423,9 +406,14 @@ function Email() {
                                                     </p>
                                                 </td>
                                                 <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
-                                                    <video src="/assets/videos/ventconvent.mov" type="video/quicktime" poster="/assets/img/convention/ventConventImg.png" height="100%" width="100%" title="" frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        referrerpolicy="strict-origin-when-cross-origin" controls></video>
+                                                    <a href="https://www.fishervent.com/videos#ventConventMP4">
+                                                        <img src="https://www.fishervent.com/assets/img/convention/rogertannergeneral.jpg" alt="VentHaven Convention" title="VentHaven Convention" width="100%" height="125%" />
+                                                    </a>
+                                                    <p style={{ width: "100%", textAlign: "center" }}>
+                                                        Click on above image to watch video on fishervent.com
+                                                    </p>
+
+
                                                 </td>
                                             </tr>
                                         </table>
@@ -472,6 +460,123 @@ function Email() {
                             </table>
                         </td>
                     </tr>
+
+                    {/* Page 7 */}
+                    <tr>
+                        <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
+                            <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: 'transparent', border: '0px solid #dddddd' }}>
+                                <tr>
+                                    <td align="center" style={{ padding: '0 20px 20px' }}>
+
+                                        <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
+                                            {/* National Ventriloquist Convention */}
+                                            <tr className="stack-column">
+                                                <td width="50%" align="center" className="stack-column" style={{ padding: '10px' }}>
+                                                    <img
+                                                        src="https://www.fishervent.com/assets/img/theamericanadventure.png"
+                                                        alt="Holidays in the USA"
+                                                        title="Holidays in the USA"
+                                                        width="50%"
+                                                    />
+                                                    <img src="https://www.fishervent.com/assets/img/adventureScript.png" alt="Adventures Script" title="Adventures Script" width="100%" height="125%" />
+                                                </td>
+                                            </tr>
+                                            <tr className="stack-column">
+                                                <td width="50%" align="center" className="stack-column" style={{ padding: '10px' }}>
+                                                    <img
+                                                        src="https://www.fishervent.com/assets/img/holidaysintheusa.png"
+                                                        alt="Holidays in the USA"
+                                                        title="Holidays in the USA"
+                                                        width="50%"
+                                                    />
+                                                    <img src="https://www.fishervent.com/assets/img/holidaysScript.png" alt="Holidays Script" title="Holidays Script" width="100%" height="125%" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+
+                    {/* Form Page */}
+                    <tr>
+                        <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
+                            <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: '#ffffff', border: '0px solid #dddddd' }}>
+                                <tr>
+                                    <td align="center" style={{ padding: '0 20px 20px' }}>
+
+                                        <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
+                                            {/* National Ventriloquist Convention */}
+                                            <tr className="contact-form">
+                                                <h2>Contact Us</h2>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="name">Name *</label>
+                                                        <input type="text" id="name" name="name" required="" />
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="organization">Organization Name</label>
+                                                        <input type="text" id="organization" name="organization" />
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="email">Email *</label>
+                                                        <input type="email" id="email" name="email" required="" />
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="phone">Phone Number *</label>
+                                                        <input type="tel" id="phone" name="phone" required="" />
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="type">Type of Show *</label>
+                                                        <select id="type" name="type" required="">
+                                                            <option value="">-- Select --</option>
+                                                            <option value="The American Adventure">The American Adventure</option>
+                                                            <option value="Holidays in the USA">Holidays in the USA</option>
+                                                            <option value="exhibition">Exhibition</option>
+                                                            <option value="private_event">Private Event</option>
+                                                            <option value="other">Other</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="date">Event Date *</label>
+                                                        <input type="date" id="date" name="date" required="" />
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="location">Event Location *</label>
+                                                        <input type="text" id="location" name="location" required="" />
+                                                    </td>
+                                                </tr>
+                                                <tr className="stack-column">
+                                                    <td width="33%" align="left" className="stack-column" style={{ padding: '10px' }}>
+                                                        <label htmlFor="message">Message *</label>
+                                                        <textarea id="message" name="message" required="" defaultValue={""} />
+                                                    </td>
+                                                </tr>
+                                                <button type="submit">Submit</button>
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+
                 </tbody>
             </table>
         </>
