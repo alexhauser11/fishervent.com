@@ -9,14 +9,14 @@ function ScrollToHash() {
             const id = location.hash.slice(1);
 
             let attempts = 0;
-            const maxAttempts = 20;
+            const maxAttempts = 30;
             const scrollToElement = () => {
                 const el = document.getElementById(id);
                 if (el) {
                     el.scrollIntoView({ behavior: "smooth" });
                 } else if (attempts < maxAttempts) {
                     attempts += 1;
-                    setTimeout(scrollToElement, 50);
+                    requestAnimationFrame(() => setTimeout(scrollToElement, 100));
                 }
             };
             scrollToElement();

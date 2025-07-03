@@ -3,7 +3,7 @@
 function Email() {
     return (
         <>
-            <table border={0} cellPadding={0} cellSpacing={0} width="100%">
+            <table border={0} align="center" cellPadding={0} cellSpacing={0} width="100%">
 
 
 
@@ -15,12 +15,11 @@ function Email() {
 
                             {/* Page 1 */}
                             <table
-                                className="email-container"
-                                width={600}
+                                align="center"
+                                border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                border={0}
-                                style={{ backgroundColor: "#ffffff", border: "1px solid #dddddd" }}
+                                style={{ minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -72,7 +71,7 @@ function Email() {
                                                             className="stack-column"
                                                             style={{ padding: 10 }}
                                                         >
-                                                            <a href="https://www.fishervent.com/videos#grownUpChristmasList">
+                                                            <a href="http://www.fishervent.com/videos#grownUpChristmasList">
                                                                 <img src="https://www.fishervent.com/assets/img/tannersGrownUpChristmas.png" alt="Roger Fisher & Tanners" title="Roger in dentist gown with Tanner dog and Tanner puppet" width="100%" />
                                                             </a>
                                                         </td>
@@ -136,12 +135,12 @@ function Email() {
                             style={{ paddingBottom: 20, paddingLeft: 20, paddingRight: 20 }}
                         >
                             <table
-                                className="email-container"
                                 width={600}
+                                align="center"
+                                border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                border={0}
-                                style={{ backgroundColor: "#ffffff", border: "1px solid #dddddd" }}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -201,12 +200,12 @@ function Email() {
                             style={{ paddingBottom: 20, paddingLeft: 20, paddingRight: 20 }}
                         >
                             <table
-                                className="email-container"
                                 width={600}
+                                align="center"
+                                border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                border={0}
-                                style={{ backgroundColor: "#ffffff", border: "1px solid #dddddd" }}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -275,12 +274,12 @@ function Email() {
                             style={{ paddingBottom: 20, paddingLeft: 20, paddingRight: 20 }}
                         >
                             <table
-                                className="email-container"
                                 width={600}
+                                align="center"
+                                border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                border={0}
-                                style={{ backgroundColor: "#ffffff", border: "1px solid #dddddd" }}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -374,8 +373,14 @@ function Email() {
                     {/* Page 5 */}
                     <tr>
                         <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
-                            <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: '#ffffff', border: '1px solid #dddddd' }}>
-                                <tr>
+                            <table
+                                width={600}
+                                align="center"
+                                border={0}
+                                cellPadding={0}
+                                cellSpacing={0}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                            >                          <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
                                         <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
                                             {/* Single Paragraph Section */}
@@ -426,8 +431,14 @@ function Email() {
                     {/* Page 6 */}
                     <tr>
                         <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
-                            <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: '#ffffff', border: '1px solid #dddddd' }}>
-                                <tr>
+                            <table
+                                width={600}
+                                align="center"
+                                border={0}
+                                cellPadding={0}
+                                cellSpacing={0}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                            >                         <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
                                         <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
                                             {/* Paragraph Section */}
@@ -464,8 +475,14 @@ function Email() {
                     {/* Page 7 */}
                     <tr>
                         <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
-                            <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: 'transparent', border: '0px solid #dddddd' }}>
-                                <tr>
+                            <table
+                                width={600}
+                                align="center"
+                                border={0}
+                                cellPadding={0}
+                                cellSpacing={0}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                            >                               <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
 
                                         <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
@@ -503,8 +520,14 @@ function Email() {
                     {/* Form Page */}
                     <tr>
                         <td align="center" style={{ paddingBottom: '20px', paddingLeft: '20px', paddingRight: '20px' }}>
-                            <table className="email-container" width="600" cellPadding={0} cellSpacing={0} border={0} style={{ backgroundColor: '#ffffff', border: '0px solid #dddddd' }}>
-                                <tr>
+                            <table
+                                width={600}
+                                align="center"
+                                border={0}
+                                cellPadding={0}
+                                cellSpacing={0}
+                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                            >                                <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
 
                                         <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
