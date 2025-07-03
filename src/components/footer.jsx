@@ -15,7 +15,6 @@ function Footer() {
             className="fa fa-youtube"
           />
           <a href="#" className="fa fa-instagram" />
-          <a href="#" className="fa fa-twitter" />
         </div>
         <h3>
           <a

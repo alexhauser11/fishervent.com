@@ -79,7 +79,6 @@ function Home() {
                               <a href="/assets/img/tailoredtofunction.png">
                                 <iframe
                                   width="100%"
-                                  height="125%"
                                   src="https://www.youtube.com/embed/86wwVmCb3KQ?si=EfOOhk1iEzBu6iax"
                                   title="YouTube video player"
                                   frameBorder={0}
@@ -190,7 +189,7 @@ function Home() {
                               style={{ padding: 10 }}
                             >
                               <video
-                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" height="100%" width="100%" title="" frameborder="0"
+                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" width="100%" title="" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" controls></video>
                               <p style={{ width: "100%", textAlign: "center" }}>
@@ -260,7 +259,6 @@ function Home() {
                             >
                               <iframe
                                 width="100%"
-                                height="100%"
                                 src="https://www.youtube.com/embed/2LX-XdGbJ-w?si=DsjXwHLRUMkLd0is"
                                 title="YouTube video player"
                                 frameBorder={0}
@@ -427,7 +425,7 @@ function Home() {
                           </p>
                         </td>
                         <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
-                          <video src="/assets/videos/ventconvent.mp4" poster="/assets/img/convention/rogertannergeneral.jpg" height="100%" width="100%" title="" frameborder="0"
+                          <video src="/assets/videos/ventconvent.mp4" poster="/assets/img/convention/rogertannergeneral.jpg" width="100%" title="" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" controls></video>
                           <p style={{ width: "100%", textAlign: "center" }}>
@@ -497,7 +495,7 @@ function Home() {
                             title="Holidays in the USA"
                             width="50%"
                           />
-                          <img src="/assets/img/adventureScript.png" alt="Adventures Script" title="Adventures Script" width="100%" height="125%" />
+                          <img src="/assets/img/adventureScript.png" alt="Adventures Script" title="Adventures Script" width="100%" />
                         </td>
                       </tr>
                       <tr className="stack-column">
@@ -508,7 +506,7 @@ function Home() {
                             title="Holidays in the USA"
                             width="50%"
                           />
-                          <img src="/assets/img/holidaysScript.png" alt="Holidays Script" title="Holidays Script" width="100%" height="125%" />
+                          <img src="/assets/img/holidaysScript.png" alt="Holidays Script" title="Holidays Script" width="100%" />
                         </td>
                       </tr>
                     </table>

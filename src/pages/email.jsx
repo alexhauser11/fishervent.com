@@ -73,7 +73,7 @@ function Email() {
                                                             style={{ padding: 10 }}
                                                         >
                                                             <a href="https://www.fishervent.com/videos#grownUpChristmasList">
-                                                                <img src="https://www.fishervent.com/assets/img/tannersGrownUpChristmas.png" alt="Roger Fisher & Tanners" title="Roger in dentist gown with Tanner dog and Tanner puppet" width="100%" height="125%" />
+                                                                <img src="https://www.fishervent.com/assets/img/tannersGrownUpChristmas.png" alt="Roger Fisher & Tanners" title="Roger in dentist gown with Tanner dog and Tanner puppet" width="100%" />
                                                             </a>
                                                         </td>
                                                         <td
@@ -177,7 +177,7 @@ function Email() {
                                                             style={{ padding: 10 }}
                                                         >
                                                             <a href="https://www.fishervent.com/videos#liveShowMP4">
-                                                                <img src="https://www.fishervent.com/assets/img/convention/liveShowImg.png" alt="Live Show" title="Live Show" width="100%" height="125%" />
+                                                                <img src="https://www.fishervent.com/assets/img/convention/liveShowImg.png" alt="Live Show" title="Live Show" width="100%" />
                                                             </a>
                                                             <p style={{ width: "100%", textAlign: "center" }}>
                                                                 Click on above image to watch video on fishervent.com
@@ -245,7 +245,7 @@ function Email() {
                                                             style={{ padding: 10 }}
                                                         >
                                                             <a href="https://www.fishervent.com/videos#easter2023">
-                                                                <img src="https://www.fishervent.com/assets/img/familyEasterWeek.png" alt="Family Easter Week" title="Family Easter Week Live" width="100%" height="125%" />
+                                                                <img src="https://www.fishervent.com/assets/img/familyEasterWeek.png" alt="Family Easter Week" title="Family Easter Week Live" width="100%" />
                                                             </a>
                                                             <p style={{ textAlign: "center", margin: "1rem" }}>
                                                                 Click the above arrow to watch the video on fishervent.com.
@@ -407,7 +407,7 @@ function Email() {
                                                 </td>
                                                 <td width="33.33%" align="center" className="stack-column" style={{ padding: '10px' }}>
                                                     <a href="https://www.fishervent.com/videos#ventConventMP4">
-                                                        <img src="https://www.fishervent.com/assets/img/convention/rogertannergeneral.jpg" alt="VentHaven Convention" title="VentHaven Convention" width="100%" height="125%" />
+                                                        <img src="https://www.fishervent.com/assets/img/convention/rogertannergeneral.jpg" alt="VentHaven Convention" title="VentHaven Convention" width="100%" />
                                                     </a>
                                                     <p style={{ width: "100%", textAlign: "center" }}>
                                                         Click on above image to watch video on fishervent.com
@@ -478,7 +478,7 @@ function Email() {
                                                         title="Holidays in the USA"
                                                         width="50%"
                                                     />
-                                                    <img src="https://www.fishervent.com/assets/img/adventureScript.png" alt="Adventures Script" title="Adventures Script" width="100%" height="125%" />
+                                                    <img src="https://www.fishervent.com/assets/img/adventureScript.png" alt="Adventures Script" title="Adventures Script" width="100%" />
                                                 </td>
                                             </tr>
                                             <tr className="stack-column">
@@ -489,7 +489,7 @@ function Email() {
                                                         title="Holidays in the USA"
                                                         width="50%"
                                                     />
-                                                    <img src="https://www.fishervent.com/assets/img/holidaysScript.png" alt="Holidays Script" title="Holidays Script" width="100%" height="125%" />
+                                                    <img src="https://www.fishervent.com/assets/img/holidaysScript.png" alt="Holidays Script" title="Holidays Script" width="100%" />
                                                 </td>
                                             </tr>
                                         </table>
