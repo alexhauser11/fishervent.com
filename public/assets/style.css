@@ -26,6 +26,13 @@ body {
   transition: 2s;
   z-index: 3;
 }
+
+@media (max-width: 1050px){
+  .logo{
+    display: none;
+  }
+}
+
 .menu {
   display: flex;
 }
