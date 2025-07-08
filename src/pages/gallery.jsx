@@ -18,7 +18,7 @@ function Gallery() {
                                 <h1>All Video Gallery</h1>
                                 <div className="image">
                                     <img
-                                        src="/assets/img/homeslider/oceanbackcollage.png"
+                                        src="/assets/img/homeslider/oceanbackcollage.jpg"
                                         alt=""
                                     />
                                     <div className="image__overlay">
@@ -35,7 +35,7 @@ function Gallery() {
                                 <h1>Vent Haven Convention</h1>
                                 <div className="image">
                                     <img
-                                        src="/assets/img/homeslider/convention.png"
+                                        src="/assets/img/homeslider/convention.jpg"
                                         alt=""
                                     />
                                     <div className="image__overlay">
@@ -52,7 +52,7 @@ function Gallery() {
                                 <h1>Ocean &amp; Back</h1>
                                 <div className="image">
                                     <img
-                                        src="/assets/img/homeslider/oceanbackcollage.png"
+                                        src="/assets/img/homeslider/oceanbackcollage.jpg"
                                         alt=""
                                     />
                                     <div className="image__overlay">

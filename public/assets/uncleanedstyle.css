@@ -172,7 +172,7 @@ body {
 } */
 .slide2 {
   /* 2nd slide idea */
-  background-image: url(http://fishervent.com/imgrf/homeslider/convention.png);
+  background-image: url(http://fishervent.com/imgrf/homeslider/convention.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ body {
 }
 .slide3 {
   /* 3rd slide idea */
-  background-image: url(http://fishervent.com/imgrf/homeslider/oceanbackcollage.png);
+  background-image: url(http://fishervent.com/imgrf/homeslider/oceanbackcollage.jpg);
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ body {
 }
 .slide4 {
   /* 4th slide idea */
-  background-image: url(http://fishervent.com/imgrf/homeslider/oceanbackcollage.png);
+  background-image: url(http://fishervent.com/imgrf/homeslider/oceanbackcollage.jpg);
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
