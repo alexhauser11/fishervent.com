@@ -2,7 +2,7 @@ import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import Carosel from '../components/carosel';
 import Form from '../components/form';
-
+// testing
 function Home() {
   return (
     <>
