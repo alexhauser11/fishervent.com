@@ -316,7 +316,7 @@ function Email() {
                                                                 instructor. During my collegiate career, I was a
                                                                 national counselor for the Fellowship of Christian
                                                                 Athletes. As a tennis pro of the Lincoln Racket Club I
-                                                                organized free clinics to kids to lean about Christ
+                                                                organized free clinics to kids to learn about Christ
                                                                 and playing tennis.
                                                             </p>
                                                         </td>

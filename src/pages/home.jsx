@@ -189,7 +189,7 @@ function Home() {
                               style={{ padding: 10 }}
                             >
                               <video
-                                src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" width="100%" title="" frameborder="0"
+                                src="/assets/videos/liveshow.mov" poster="/assets/img/convention/liveShowImg.png" width="100%" title="" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" controls></video>
                               <p style={{ width: "100%", textAlign: "center" }}>
@@ -336,7 +336,7 @@ function Home() {
                                 instructor. During my collegiate career, I was a
                                 national counselor for the Fellowship of Christian
                                 Athletes. As a tennis pro of the Lincoln Racket Club I
-                                organized free clinics to kids to lean about Christ
+                                organized free clinics to kids to learn about Christ
                                 and playing tennis.
                               </p>
                             </td>

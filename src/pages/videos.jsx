@@ -17,7 +17,7 @@ function Videos() {
                     className="main"
                     style={{ marginBottom: 50 }}
                 >
-                    <video src="/assets/videos/liveshow.mp4" poster="/assets/img/convention/liveShowImg.png" width="100%" height="50%" 
+                    <video src="/assets/videos/liveshow.mov" poster="/assets/img/convention/liveShowImg.png" width="100%" height="50%" 
                     title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" controls />
 
