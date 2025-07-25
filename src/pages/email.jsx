@@ -1,8 +1,9 @@
-
+import CopyHtml  from "../components/copyhtml";
 
 function Email() {
     return (
-        <>
+        <CopyHtml>
+
             <table border={0} align="center" cellPadding={0} cellSpacing={0} width="100%">
 
 
@@ -140,7 +141,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -205,7 +206,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -279,7 +280,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >
                                 <tbody>
                                     <tr>
@@ -379,7 +380,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >                          <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
                                         <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
@@ -437,7 +438,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >                         <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
                                         <table width="100%" cellPadding={0} cellSpacing={0} border={0}>
@@ -481,7 +482,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >                               <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
 
@@ -526,7 +527,7 @@ function Email() {
                                 border={0}
                                 cellPadding={0}
                                 cellSpacing={0}
-                                style={{ width:"100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
+                                style={{ width: "100%", minWidth: "100px", maxWidth: "600px", border: "solid 1px #dddddd", backgroundColor: "#ffffff", boxShadow: "0 0 15px rgba(0, 0, 0, 0.5)" }}
                             >                                <tr>
                                     <td align="center" style={{ padding: '0 20px 20px' }}>
 
@@ -608,7 +609,7 @@ function Email() {
 
                 </tbody>
             </table>
-        </>
+        </CopyHtml>
     )
 }
 
