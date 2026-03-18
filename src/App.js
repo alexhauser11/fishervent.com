@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {Navigate, BrowserRouter, Routes, Route} from 'react-router-dom';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Gallery from './pages/gallery';
@@ -27,6 +27,7 @@ function App(){
       <Route path='/store' element={<Store/>}/>
       <Route path='/venthaven2023' element={<VentHaven2023/>}/>
       <Route path='/videos' element={<Videos/>}/>
+      <Route path='/videos.html' element={<Navigate to="/videos" replace />} />
       <Route path='/email' element={<Email/>}/>
     </Routes>
     </BrowserRouter>

@@ -18,8 +18,8 @@ function Videos() {
                     style={{ marginBottom: 50 }}
                 >
                     <video src="/assets/videos/liveshow.mov" poster="/assets/img/convention/liveShowImg.png" width="100%" height="50%" 
-                    title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" controls />
+                    title="" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" controls />
 
                     <div className="" style={{ padding: "25px 25px" }}>
                         <h2>Live Show</h2>
@@ -35,9 +35,9 @@ function Videos() {
                     className="main"
                     style={{ marginBottom: 50 }}
                 >
-                    <video src="/assets/videos/ventconvent.mp4" poster="/assets/img/convention/rogertannergeneral.jpg" height="100%" width="100%" title="" frameborder="0" 
+                    <video src="/assets/videos/ventconvent.mp4" poster="/assets/img/convention/rogertannergeneral.jpg" height="100%" width="100%" title="" frameBorder="0" 
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                          referrerpolicy="strict-origin-when-cross-origin" controls></video>
+                          referrerPolicy="strict-origin-when-cross-origin" controls></video>
                     <div className="" style={{ padding: "25px 25px" }}>
                         <h2>VentHaven Convention</h2>
                         <p>
@@ -146,7 +146,7 @@ function Videos() {
                     <Link to="/about">
                         <img
                             className="headerimg"
-                            src="https://fishervent.com/imgrf/don.png"
+                            src="https://fishervent.com/assets/img/don.png"
                             alt=""
                         />
                     </Link>
@@ -180,7 +180,7 @@ function Videos() {
                     <Link to="/about">
                         <img
                             className="headerimg"
-                            src="https://fishervent.com/imgrf/tanner.png"
+                            src="https://fishervent.com/assets/img/tanner.png"
                             alt=""
                         />
                     </Link>
@@ -213,7 +213,7 @@ function Videos() {
                     <Link to="/about">
                         <img
                             className="headerimg"
-                            src="https://fishervent.com/imgrf/cracker.png"
+                            src="https://fishervent.com/assets/img/Cracker.png"
                             alt=""
                         />
                     </Link>
