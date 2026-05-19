@@ -50,6 +50,11 @@ function NavBar() {
                             Contact
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/book" className="link">
+                            Book
+                        </Link>
+                    </li>
                     {/* <div class="smicons">
   <a href="#" class="fa fa-facebook"></a>
   <a href="#" class="fa fa-youtube"></a>

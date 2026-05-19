@@ -10,6 +10,7 @@ import VentHaven2023 from './pages/venthaven2023';
 import Videos from './pages/videos';
 import ScrollToHash from './components/scrolltohash';
 import Email from './pages/email';
+import Book from './pages/book';
 
 
 
@@ -29,6 +30,7 @@ function App(){
       <Route path='/videos' element={<Videos/>}/>
       <Route path='/videos.html' element={<Navigate to="/videos" replace />} />
       <Route path='/email' element={<Email/>}/>
+      <Route path='/book' element={<Book/>}/>
     </Routes>
     </BrowserRouter>
   )

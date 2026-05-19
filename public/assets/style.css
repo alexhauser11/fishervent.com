@@ -767,3 +767,268 @@ footer p {
 hr {
   width: 30%;
 }
+
+/* Book Promo Page Styles */
+.book-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d1f3c 0%, #1a3d72 100%);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  padding: 40px 32px;
+  margin: 20px auto;
+}
+
+.book-hero {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.book-hero img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(201, 162, 39, 0.3);
+}
+
+.book-content {
+  background-color: rgba(13, 31, 60, 0.05);
+  border: 2px solid #c9a227;
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 28px;
+  line-height: 1.8;
+  color: #333333;
+  font-size: 16px;
+}
+
+.book-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d1f3c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.book-content p {
+  margin-bottom: 16px;
+  text-indent: 0;
+}
+
+.book-content p:last-child {
+  margin-bottom: 0;
+}
+
+.book-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-btn {
+  flex: 1 1 200px;
+  padding: 14px 24px;
+  background-color: #c9a227;
+  color: #0d1f3c;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: none;
+  min-width: 160px;
+}
+
+.book-btn:hover {
+  background-color: #b8922a;
+}
+
+.book-btn.primary {
+  background-color: #1a3d72;
+  color: #ffffff;
+}
+
+.book-btn.primary:hover {
+  background-color: #0d1f3c;
+}
+
+/* Book Modal Styles */
+.book-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+}
+
+.book-modal-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  padding: 32px;
+  max-width: 500px;
+  width: 90%;
+  z-index: 9999;
+}
+
+.book-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #0d1f3c;
+  padding: 8px;
+  line-height: 1;
+}
+
+.book-modal-close:hover {
+  opacity: 0.7;
+}
+
+.book-modal-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.book-modal-header img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.book-modal-title {
+  font-size: 24px;
+  color: #0d1f3c;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.book-modal-subtitle {
+  font-size: 14px;
+  color: #0d1f3c;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.book-modal-tagline {
+  font-size: 14px;
+  color: #1a3d72;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.book-modal-quote {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+  margin: 12px 0;
+}
+
+.book-modal-trauma {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 32px 0;
+}
+
+.book-modal-trauma-word {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1;
+  color: #c9a227;
+}
+
+.book-modal-trauma-lines {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d1f3c;
+  line-height: 1.4;
+}
+
+.book-modal-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.book-modal-btn {
+  flex: 1;
+  padding: 12px 20px;
+  background-color: #c9a227;
+  color: #0d1f3c;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: none;
+}
+
+.book-modal-btn:hover {
+  background-color: #b8922a;
+}
+
+.book-modal-btn.secondary {
+  background-color: #f0f0f0;
+  color: #0d1f3c;
+  border: 1px solid #ddd;
+}
+
+.book-modal-btn.secondary:hover {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 650px) {
+  .book-card {
+    padding: 24px 16px;
+  }
+
+  .book-content {
+    padding: 20px;
+  }
+
+  .book-buttons {
+    flex-direction: column;
+  }
+
+  .book-btn {
+    flex: none;
+    width: 100%;
+  }
+
+  .book-modal-overlay {
+    padding: 24px;
+  }
+
+  .book-modal-trauma {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .book-modal-trauma-word {
+    font-size: 2rem;
+  }
+}

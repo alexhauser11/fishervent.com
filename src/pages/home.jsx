@@ -2,13 +2,14 @@ import NavBar from '../components/navbar';
 import Footer from '../components/footer';
 import Carosel from '../components/carosel';
 import Form from '../components/form';
+import BookModal from '../components/bookmodal';
 
 function Home() {
   return (
     <>
       {/* Navigation Bar w/NavBurger */}
       <NavBar />
-
+      <BookModal />
 
       <table border={0} cellPadding={0} cellSpacing={0} width="100%">
         <tbody>
