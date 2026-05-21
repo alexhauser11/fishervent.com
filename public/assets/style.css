@@ -778,6 +778,12 @@ hr {
   align-items: center;
 }
 
+.book-image-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
 .book-card {
   background-color: #ffffff;
   border-radius: 12px;
@@ -1004,6 +1010,18 @@ hr {
 @media (max-width: 650px) {
   .book-card {
     padding: 24px 16px;
+    max-width: 100% !important;
+  }
+
+  .book-layout {
+    flex-direction: column !important;
+    gap: 20px !important;
+    align-items: center !important;
+  }
+
+  .book-image-container {
+    width: 100% !important;
+    justify-content: center !important;
   }
 
   .book-content {

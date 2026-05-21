@@ -52,7 +52,7 @@ export default function BookModal() {
             src="/assets/img/trauma/TraumaBookCover.png"
             alt="Trauma Book Cover"
             style={{
-              maxWidth: '150px',
+              maxWidth: '220px',
               height: 'auto',
               borderRadius: '8px',
               marginBottom: '20px',
