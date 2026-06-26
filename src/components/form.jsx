@@ -3,7 +3,12 @@
 function Form() {
     return (
         <>
-            <form className="contact-form">
+            <form className="contact-form" action="https://formsubmit.co/52ac1b1793ed6217aba206e0c7ad2c4f"
+        method="POST"
+        encType="multipart/form-data"
+      >
+        <input type="hidden" name="_cc" defaultValue="roger@fishervent.com" />
+        <input type="hidden" name="_subject" defaultValue="" />
                 <h2>Contact Us</h2>
                 <div className="form-group">
                     <label htmlFor="name">Name *</label>
