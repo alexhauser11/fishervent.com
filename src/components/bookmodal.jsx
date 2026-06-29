@@ -64,6 +64,35 @@ export default function BookModal() {
           <p style={{ fontSize: '14px', color: '#0d1f3c', fontWeight: 600, margin: '8px 0' }}>
             Now Available on Amazon
           </p>
+
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '12px',
+            margin: '20px 0 24px 0',
+          }}>
+            <span style={{
+              fontSize: '2.5rem',
+              fontWeight: 900,
+              lineHeight: 1,
+              color: '#c9a227',
+            }}>
+              TRAUMA
+            </span>
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              fontSize: '14px',
+              fontWeight: 600,
+              color: '#0d1f3c',
+              lineHeight: 1.4,
+            }}>
+              <span>Here it Comes.</span>
+              <span>There it Goes.</span>
+            </div>
+          </div>
+
           <h2 style={{ fontSize: '24px', color: '#0d1f3c', fontWeight: 700, margin: '12px 0' }}>
             The Wheel of Radical Acceptance
           </h2>
@@ -73,34 +102,6 @@ export default function BookModal() {
           <p style={{ fontSize: '13px', color: '#666', fontStyle: 'italic', margin: '12px 0' }}>
             "My Tumultuous Journey"
           </p>
-        </div>
-
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: '12px',
-          margin: '32px 0',
-        }}>
-          <span style={{
-            fontSize: '2.5rem',
-            fontWeight: 900,
-            lineHeight: 1,
-            color: '#c9a227',
-          }}>
-            TRAUMA
-          </span>
-          <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            fontSize: '14px',
-            fontWeight: 600,
-            color: '#0d1f3c',
-            lineHeight: 1.4,
-          }}>
-            <span>Here it Comes.</span>
-            <span>There it Goes.</span>
-          </div>
         </div>
 
         <div style={{ display: 'flex', gap: '12px', marginTop: '28px' }}>
