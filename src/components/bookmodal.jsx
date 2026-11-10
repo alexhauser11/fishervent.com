@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function BookModal() {
-  const [isOpen, setIsOpen] = useState(true);
+  // Disabled auto-open per Ludwing (2026-11-10): popup no longer fires on load.
+  // Component kept in place in case marketing wants to re-enable it later.
+  const [isOpen, setIsOpen] = useState(false);
 
   if (!isOpen) return null;
 
